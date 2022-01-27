@@ -1,0 +1,39 @@
+{
+  "name": "openmusicv1",
+  "version": "1.0.0",
+  "description": "openmusic v1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "migrate": "node-pg-migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/prakoso-id/OpenMusicv1.git"
+  },
+  "keywords": [
+    "openmusicv1"
+  ],
+  "author": "Rob-Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakoso-id/OpenMusicv1/issues"
+  },
+  "homepage": "https://github.com/prakoso-id/OpenMusicv1#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/jwt": "^2.1.0",
+    "amqplib": "^0.8.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "joi": "^17.5.0",
+    "nanoid": "^3.1.30",
+    "node-pg-migrate": "^6.2.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "redis": "^3.1.2"
+  }
+}
